@@ -183,16 +183,17 @@ hr{
     display:flex;
     max-width:100%;
 }
+
 .people >div{
     overflow:auto;
-    max-height:200px;
+    max-height:450px;
     display:flex;
     justify-content: space-between;
     max-width:100%
 }
 .people>div::-webkit-scrollbar {
     display: none;
-  }
+}
 
 
 .cardy{
