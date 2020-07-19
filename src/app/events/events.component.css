@@ -1,0 +1,364 @@
+.bar{
+   padding:0;
+}
+.main-logo{
+    width:130px;
+    height:50px
+}
+.nav-link{
+  color:rgb(83, 83, 83)  
+}
+.nav-item :hover{
+    color:rgb(29, 165, 147);
+}
+.main{
+    margin-top:15px
+}
+.events{
+    display:flex;
+}
+.event-details{
+    display:flex;
+    flex-direction:column;
+}
+.event-details > .date{
+    color:rgb(112, 110, 110);
+    font-size:1.1rem
+}
+.event-details > .event-name{
+    font-size:2rem;
+    font-weight:800;
+}
+.event-host{
+    margin-top:10px;
+
+}
+.event-host > img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    float:left;
+}
+.event-host > .by{
+    margin-left:20px;
+    font-size:1.1rem
+}
+.event-host > .host-name{
+    margin-left:20px;
+    font-size:1.1rem;
+    font-weight:550
+}
+.share{
+    display:flex;
+    align-items: flex-end;
+}
+.share > button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgb(204, 202, 202);
+    color:rgb(124, 121, 121);
+    border-radius:8px;
+    padding:10px 17px 7px 17px;
+    font-size:0.9rem;
+    font-weight:700;
+}
+.share >button > span{
+    border:none;
+    margin-right:5px;
+    margin-top:-5px;
+}
+.share :hover {
+    border:1px solid rgb(63, 62, 62);
+}
+hr{
+    margin-bottom: 0;
+}
+.text >div> .main-image{
+    margin-top:6%;
+    max-width:100%;
+}
+@media (max-width: 991.98px){
+    .text{
+        margin-left:0;
+        margin-right:0;
+        padding-left:0;
+        padding-right:0
+    }
+}
+.event-details >div> .location{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.event-details >div> .location > span{
+    display:flex;
+    align-items: center;
+    margin-left: 100px;
+    position: relative;
+    top:15%
+}
+.location > img {
+    width:25%;
+    float:left;
+    margin:20px 20px 25px 20px;
+}
+.event-details >div> .location > .second{
+    color:rgb(165, 163, 163);
+    font-size:1rem
+}
+.event-details >div> .location > .second > span{
+    font-size:1rem;
+}
+@media (min-width :991.98px){
+    .event-details >div> .location{
+        margin-top:25%;
+        position:sticky;
+    }
+}
+.event-details >div> .time{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.event-details >div> .time > .material-icons{
+    float:left;
+    margin:20px 20px 25px 20px;
+    color:rgb(161, 160, 160);
+}
+.event-details >div> .time > .first{
+    margin-right:100px;
+
+}
+.event-details >div> .time > .second{
+    margin-left:-35px
+}
+@media (min-width :991.98px){
+    .event-details >div> .time{
+        margin-top:7%;
+
+    }
+}
+@media (min-width:991.98px){
+    .event-details > div{
+        position:sticky;
+        top:0;
+    }
+    
+}
+@media (max-width :768px){
+    .content > div{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .event-details{
+        margin-top:2%;
+    }
+    .time{
+        width:100%
+    }
+    .event-details >div> .time > .first{
+        margin-left:-100px;
+    
+    }
+    .event-details >div> .time > .second{
+        margin-left:-135px;
+    
+    }
+}
+
+.content > div >.event-details{
+    margin-left:auto
+}
+.text > div{
+    display:flex;
+    flex-direction: column;
+}
+.attendees{
+    margin-top:6%;
+    display:flex;
+    max-width:100%;
+}
+.people >div{
+    overflow:auto;
+    max-height:200px;
+    display:flex;
+    justify-content: space-between;
+    max-width:100%
+}
+.people>div::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.cardy{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width:23%;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    border:none;
+
+}
+.cardy:hover{
+    box-shadow: 0px 1px 9px 0px rgb(211, 211, 211);
+    cursor:pointer;
+}
+.cardy > img{
+    max-width:50%;
+    margin-top:10%;
+    height:70px;
+    border-radius: 50%;
+}
+.more >img{
+    max-width:20%;
+    float:left;
+    margin:3%
+}
+.more{
+    background-color:white;
+    position:relative;
+    border-radius: 10px;
+    margin-left:2%
+}
+.row > .sponsors{
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin:2% 0 0 5%;
+    border-radius:10px;
+    max-width:50%;
+    text-align: center;
+}
+.similar-events{
+    margin-top:5%;
+    display:flex;
+    object-fit:cover;
+}
+.card{
+    border:none;
+    cursor: pointer;
+}
+.card-body{
+    display:flex;
+    flex-direction: column;
+}
+.bt-attend{
+    background-color: white;
+    border:1px solid rgb(37, 141, 155);
+    border-radius: 7px;
+    padding:7px 15px 7px 15px;
+    color:rgb(37, 141, 155)
+}
+.bt-attend:hover{
+    background-color: rgb(37, 141, 155);
+    color:white;
+}
+.card:hover{
+    box-shadow:0 2px 6px 1px rgb(216, 216, 216);
+}
+.p-event{
+    display:flex;
+    overflow:auto;
+    max-height:400px;
+}
+.p-event::-webkit-scrollbar {
+    display: none;
+  }
+.event-cards{
+    min-width:350px;
+}
+.free-cont{
+    position:sticky;
+    bottom:0;
+    background-color:white;
+    z-index:3
+}
+.last-info{
+    display:flex;
+    align-items: center;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+.waitlist-btn{
+    padding:13px 25px;
+    background-color: rgb(247, 91, 91);
+    color:white;
+    font-weight: 600;
+    border:none;
+    border-radius:7px
+}
+.waitlist-btn:hover{
+    opacity:0.9
+}
+@media (min-width:768.1px){
+    .free{
+        margin-left:auto
+    }
+    .last-time{
+        display:flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:768px){
+    .last-time{
+        display:none;
+    }
+    .free{
+        margin-right:auto
+    }
+    .star{
+        margin-left:auto
+    }
+}
+.bottom{
+    background-color:rgb(53,62,72);
+}
+.new-group{
+    margin-top:3%
+}
+.new-group> span{
+    color:white;
+    text-decoration: underline;
+    font-size:1.1rem   
+}
+.new-group >span:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.bottom-col{
+    display:flex;
+    flex-direction: column;
+}
+.bottom-col > span{
+    color:rgb(180, 180, 180);
+    font-size:1.1rem; 
+    margin-top:4% 
+}
+.bottom-items{
+    display:flex;
+    justify-content: space-between;
+}
+.icons >img{
+    margin-top:5%;
+    margin-right:10%;
+}
+.english{
+    display:flex;
+    background-color:black;
+    color:white;
+    border:1px solid white;
+    border-radius: 5px;
+    margin-top:9%
+}
+.english:active{
+    border:1px solid rgb(37, 141, 155)
+}
